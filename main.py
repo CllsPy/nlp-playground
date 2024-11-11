@@ -9,7 +9,7 @@ from utils import *
 #nlp = spacy.load('pt_core_news_sm')
 
 #import spacy.cli
-spacy.cli.download("en_core_web_sm")
+#spacy.cli.download("en_core_web_sm")
 #import en_core_web_sm
 #nlp = en_core_web_sm.load()
 nlp = spacy.load('en_core_web_sm')

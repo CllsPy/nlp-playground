@@ -5,7 +5,9 @@ from spacy.tokenizer import Tokenizer
 
 from utils import *
 
-python -m spacy download pt_core_news_sm
+#python -m spacy download pt_core_news_sm
+from spacy.cli import download
+download("pt_core_news_sm")
 nlp = spacy.load('pt_core_news_sm')
 st.title(title_msg)
 

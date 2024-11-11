@@ -1,4 +1,4 @@
-# nlp-playground
+# NPL Playgroud
 
 ## Objective
 

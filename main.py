@@ -14,7 +14,7 @@ from utils import *
 
 #import en_core_web_sm
 #nlp = en_core_web_sm.load()
-#nlp = spacy.load('en')
+nlp = spacy.load('en')
 st.title(title_msg)
 
 col1, col2, col3 = st.columns(3)

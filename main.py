@@ -2,7 +2,9 @@ import spacy
 import streamlit as st
 from spacy.tokenizer import Tokenizer
 from utils import *
-python -m spacy download pt_core_news_sm
+
+spacy download pt_core_news_sm
+
 #from spacy.cli import download
 #download("pt_core_news_sm")
 #spacy.load("en_core_web_sm")

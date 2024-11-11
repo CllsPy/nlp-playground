@@ -2,4 +2,4 @@ streamlit
 spacy
 pandas
 numpy
-spacy download pt_core_news_sm
+python spacy download pt_core_news_sm

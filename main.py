@@ -4,7 +4,7 @@ from spacy import displacy
 from spacy.tokenizer import Tokenizer
 
 from utils import *
-
+spacy.cli.download("pt_core_news_sm")
 nlp = spacy.load('pt_core_news_sm')
 st.title(title_msg)
 

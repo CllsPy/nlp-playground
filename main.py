@@ -1,6 +1,5 @@
 import spacy
 import streamlit as st
-from spacy import displacy
 from spacy.tokenizer import Tokenizer
 
 from utils import *

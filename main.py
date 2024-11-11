@@ -8,9 +8,9 @@ from utils import *
 #spacy.load("en_core_web_sm")
 #nlp = spacy.load('pt_core_news_sm')
 
-import spacy.cli
-spacy.cli.download("en_core_web_sm")
-import en_core_web_sm
+#import spacy.cli
+#spacy.cli.download("en_core_web_sm")
+#import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
 st.title(title_msg)
 

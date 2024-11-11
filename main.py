@@ -5,9 +5,12 @@ from spacy.tokenizer import Tokenizer
 from utils import *
 
 #python -m spacy download pt_core_news_sm
-from spacy.cli import download
-download("pt_core_news_sm")
-nlp = spacy.load('pt_core_news_sm')
+#from spacy.cli import download
+#download("pt_core_news_sm")
+#spacy.load("en_core_web_sm")
+#nlp = spacy.load('pt_core_news_sm')
+
+nlp = spacy.load('en_core_web_sm')
 st.title(title_msg)
 
 col1, col2, col3 = st.columns(3)

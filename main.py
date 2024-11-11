@@ -2,7 +2,6 @@ import spacy
 import streamlit as st
 from spacy.tokenizer import Tokenizer
 from utils import *
-import en_core_web_sm
 #python -m spacy download pt_core_news_sm
 #from spacy.cli import download
 #download("pt_core_news_sm")
@@ -11,7 +10,7 @@ import en_core_web_sm
 
 import spacy.cli
 spacy.cli.download("en_core_web_sm")
-
+import en_core_web_sm
 nlp = spacy.load('en_core_web_sm')
 st.title(title_msg)
 

@@ -3,15 +3,13 @@ import streamlit as st
 from spacy.tokenizer import Tokenizer
 from utils import *
 
-spacy download pt_core_news_sm
-
 #from spacy.cli import download
 #download("pt_core_news_sm")
 #spacy.load("en_core_web_sm")
 #nlp = spacy.load('pt_core_news_sm')
 
 #import spacy.cli
-#spacy.cli.download("en_core_web_sm")
+spacy.cli.download("en_core_web_sm")
 
 $ python -m spacy download en_core_web_sm
 

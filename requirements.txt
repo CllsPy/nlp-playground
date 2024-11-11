@@ -2,4 +2,3 @@ streamlit
 spacy
 pandas
 numpy
-python spacy download pt_core_news_sm

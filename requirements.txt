@@ -2,4 +2,3 @@ streamlit
 pandas
 numpy
 spacy
-https://github.com/explosion/spacy-models/blob/master/meta/pt_core_news_sm-2.0.0.json
